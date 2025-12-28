@@ -26,7 +26,7 @@ tds path/to/project
 ```
 
 ## Example Output
-![](static/example.png)
+![](static/usage_example.png)
 
 ## Roadmap
 - Markdown/HTML report output
