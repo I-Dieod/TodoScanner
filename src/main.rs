@@ -134,7 +134,7 @@ fn scan_file(
                 // println!("{}", without_prefix);
 
                 // Vec["Pattern", "Content"]
-                let comment_v: Vec<&str> = without_prefix.split(":").collect();
+                let comment_v: Vec<&str> = without_prefix.splitn(2, ":").collect();
                 // println!("Comment Vec: {}", comment_v[0]);
                 match comment_v[0] {
                     // Pattern: "TODO"
